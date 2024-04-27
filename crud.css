@@ -1,0 +1,126 @@
+*{
+    margin-top: 0;
+    padding: 0;  
+}
+
+body{
+    background-color: black;
+    color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.crud{
+   width: 80%; 
+   margin: auto;
+
+}
+
+.head{
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+
+input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #1C2942;
+    margin: 4px 0;
+    padding: 4px;
+    color: white;
+    border-radius: 4px;
+
+}
+
+input:focus{
+    background-color: #161c26;
+    transform: scale(1.1);
+}
+
+.price input{
+   width: 20%;
+   align-items: center;
+}
+
+#total{
+    background-color: #a00d02;
+    padding: 5px 2px;
+    border-radius: 4px;
+    display: inline-block;
+    min-width:  15%;
+    font-size: 17px;
+}
+
+#total::before {
+    content: 'Total : ';
+}
+
+
+button{
+    width: 100%;
+    padding: 5px 2px;
+    border-radius: 4px;
+    background-color: #5FC2BA;
+    border-color: #3B556D;
+    color: #1C2942;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+#submit {
+    display: block; /* Convertit le bouton en un élément de bloc */
+    margin: 10px auto 10px; /* Marge de 16px en haut et en bas, centré horizontalement */
+    height: 40px;
+    font-size: 20px;
+}
+
+
+button:hover{
+    background-color: #51958f;
+    letter-spacing: 1px;
+}
+
+.btnSearch{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnSearch button {
+    width: 45%;
+}
+
+table{
+    border-color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+table button:hover{
+    letter-spacing: normal;
+}
+
+table th{
+    text-transform: uppercase;
+}
+
+th , td{
+   padding: 5px;
+}
+
+
+#btndeleteAll  {
+    margin-top: 10px;
+}
+
+#search{
+    margin-bottom: 10px;
+}
+
+
+
